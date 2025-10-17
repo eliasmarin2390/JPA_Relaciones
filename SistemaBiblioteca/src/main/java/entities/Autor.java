@@ -77,4 +77,7 @@ public class Autor {
         libros.remove(libro);
         libro.setAutor(null);
     }
+
+    public void setFechaNac(String date) {
+    }
 }
