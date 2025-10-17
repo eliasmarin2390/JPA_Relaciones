@@ -1,8 +1,9 @@
 package interfaz;
+import entities.Autor;
 import entities.Categoria;
 import java.util.List;
 
-public interface IntrCategoria {
+public interface InterCategoria {
     Categoria guardar(Categoria categoria);
-    List<Categoria> listar();
+    List<Autor> listar();
 }
